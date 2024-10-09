@@ -5,7 +5,7 @@ public class ProcessoSeletivo {
         analisarCandidato(2000.0);
     }
 
-    public static void analisarCandidato (double salarioPretendido){
+    static void analisarCandidato (double salarioPretendido){
         double salarioBase = 2000.0;
         if (salarioBase > salarioPretendido) {
             System.out.println("LIGAR PARA OUTRO CANDIDATO");
